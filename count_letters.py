@@ -3,7 +3,7 @@
 # Date: 08/07/2024
 # Description: Gives the number of letters in a string of text
 
-def countletters(s):
+def count_letters(s):
     letter_counts = {} # Initialize empty dictionary for letter counting
     for char in s: # Iterates through every character in the text
         upper_char = char.upper() # Converts lower case to upper case for ease of counting
